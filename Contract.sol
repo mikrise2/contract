@@ -2,7 +2,7 @@ pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract MyToken {
+contract Exchanger {
 
     address private owner;
     mapping(IERC20 => uint256) private  rates;
